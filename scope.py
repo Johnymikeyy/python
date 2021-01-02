@@ -22,15 +22,18 @@ print(myfunc())
 
 ##################
 
+#     LEGB  (LOCAL ENCLOSING GLOBAL BUILT FUNC.)
+
 x = 'global level'
 
-def func():
+def enclosing():
     x = 'func level'
     def innerfunc():
         x = 'local level'
         print(x)
     innerfunc()
 
-func()
+enclosing()
+
 
     
