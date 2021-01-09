@@ -4,6 +4,9 @@ family_name = { 'name1' : 'charlie',
                }
 
 print(family_name)
+family_name.update({'name4': 'random'}) #update the dictionary
+
+print(family_name)
 
 family_name['name4'] = 'dsfdsf'
 print(family_name)
