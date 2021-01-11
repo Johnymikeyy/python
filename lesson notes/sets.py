@@ -27,4 +27,4 @@ daybyday = {"09/01/2021"}
 print(set(day))
 print(daybyday)
 
-      
+  
