@@ -26,7 +26,9 @@ filtered_list = filter(None, listA)# None, it filters True ones
 print("the filtered elements are:")
 for i in filtered_list:
     print(i)
-    
+
+
+
 #enumerate(iterable, start = 0)
 grocery = ["bread", "water", "olive"]
 enum_grocery = enumerate(grocery)
