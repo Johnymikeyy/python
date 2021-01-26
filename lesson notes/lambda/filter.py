@@ -24,7 +24,7 @@ vowels = filter(lambda x: True if x in vowel_list else False, first_ten)
 print(list(vowels))
 
 
-
+######
 def modular_function(n):
     return lambda x: x ** n
 
@@ -55,4 +55,11 @@ myprint_neutral= functioner(":I")
 myprint_smile("hello")
 myprint_sad("noo")
 myprint_neutral("yess")
+
+
+####
+number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+result = list(filter(lambda x : x > 5 , number_list))
+print(result)
 
