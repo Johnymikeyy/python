@@ -1,3 +1,14 @@
+import mym 
+mym.my_function()
+
+print(mym.my_variable)
+
+###
+from my_module import my_function as mfnc # !!!
+
+mfnc()
+
+
 def my_function_1(a, b):
     area = a * b
     return area
