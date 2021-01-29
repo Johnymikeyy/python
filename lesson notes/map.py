@@ -15,13 +15,15 @@ for i in result:
  
 
 
- 
+#####
 def square(x):
     return x**2
 iterable = [1, 2, 3, 4, 5]  
 result = map(square, iterable)
 print(list(result))
-    
+ 
+ 
+#####   
 letter1 = ["o", "s", "t", "t"]
 letter2 = ["n", "i", "e", "w"]
 letter3 = ["e", "x", "n", "o"]
@@ -31,14 +33,14 @@ print(list(numbers))
 
 
 
-
+#####
 nums1 = [9, 6, 7, 4]
 nums2 = [3, 6, 5, 8]
 
 total = map(lambda x, y : (x + y) / 2, nums1, nums2)
 print(list(total))
 
-
+#####
 words1 = ["you", "much", "hard"]
 words2 = ["I", "you", "he"]
 words3 = ["love", "ate", "works"]
