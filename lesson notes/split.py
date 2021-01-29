@@ -5,8 +5,8 @@ print(words)
 print(*words)
 print(list(words))
 nested_list =[words]
-
 print(nested_list)
+print(len(words))
 
 
 longest = 0
