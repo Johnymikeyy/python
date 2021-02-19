@@ -1,0 +1,11 @@
+File Components
+Metadata
+All the detailed information about a file stored on the computer is called the metadata of that file. 
+
+File attributes are metadata associated with computer files that define file system behavior. Each attribute can have one of two states: set and cleared. 
+
+Read-Only (R) : When set, it makes the file read-only and indicates that a file can not be altered. 
+System (S) : When set, it indicates that the hosting file is a critical system file that is necessary for the computer to operate properly.
+Hidden (H) : When set, it makes the file hidden and indicates that the hosting file is unseen by default.
+
+
