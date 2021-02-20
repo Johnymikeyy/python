@@ -1,0 +1,14 @@
+
+                            Syntax Error	                                                                                              Exception Error
+These types of errors are detected during compiling the program into byte-code.	                    These types of errors are detected during the program execution (interpretation) process.
+
+
+
+
+
+TypeError- It occurs when the expected type does not match with the given type of a variable.
+ValueError- It occurs when an expected value is not given, suppose you are expecting 6 elements in a list and you gave 2.
+NameError- It occurs when you are trying to access an undefined variable or a function.
+IOError- It occurs when you are trying to access a file that does not exist.
+IndexError- It occurs when you are trying to access an invalid index of a sequence.
+KeyError- It occurs when you use an invalid key to access a value in the dictionary.
