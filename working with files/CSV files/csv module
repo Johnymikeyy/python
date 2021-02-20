@@ -1,0 +1,65 @@
+with open("fruits.csv", 'r', encoding="utf-8") as file:
+    print(file.read())
+
+# output
+
+no,fruit,amount
+1,Banana,4 lb
+2,Orange,5 lb
+3,Apple,2 lb
+4,Strawberry,6 lb
+5,Cherry,3 lb
+
+######################################
+
+import csv  # loads csv module
+
+with open("fruits.csv", 'r', newline = '', encoding = 'utf-8') as file:
+    csv_rows = csv.reader(file)  # reader() function takes each
+                                 # row (lines) into a list
+    for row in csv_rows: 
+        print(row)   
+
+
+# output
+
+['no', 'fruit', 'amount']
+['1', 'Banana', '4 lb']
+['2', 'Orange', '5 lb']
+['3', 'Apple', '2 lb']
+['4', 'Strawberry', '6 lb']
+['5', 'Cherry', '3 lb']
+
+
+#######################
+
+If we determine a character that is not included in the CSV file and allocate this character as the value of delimiter, 
+we can print all lines of the CSV file as lists as a single string element. 
+
+#####
+
+import csv 
+
+with open("fruits.csv", 'r', newline = '', encoding = 'utf-8') as file:
+    csv_rows = csv.reader(file, delimiter = ':')  # we specified a char ":" that is not used
+                                                  # in the csv file as a value of delimiter
+    for row in csv_rows: 
+        print(row
+
+# output
+
+['no,fruit,amount']
+['1,Banana,4 lb']
+['2,Orange,5 lb']
+['3,Apple,2 lb']
+['4,Strawberry,6 lb']
+['5,Cherry,3 lb']
+
+
+
+#############################
+
+you have a csv file (annual_assesment.csv) stored in the current working directory. Open and print this file using with ... as ... block.
+
+with open("annual_assesment.csv", "r" , encoding="utf-8") as file :
+    print(file.read())
